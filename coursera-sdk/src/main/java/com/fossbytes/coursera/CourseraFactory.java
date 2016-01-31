@@ -6,11 +6,11 @@ import com.fossbytes.coursera.model.Course;
 import com.fossbytes.coursera.model.Instructor;
 import com.fossbytes.coursera.model.Partner;
 
-public class CouseraFactory {
+public class CourseraFactory {
 
-	private static CouseraFactory singleton = new CouseraFactory();
+	private static CourseraFactory singleton = new CourseraFactory();
 
-	public static CouseraFactory getInstance() {
+	public static CourseraFactory getInstance() {
 		return singleton;
 	}
 
