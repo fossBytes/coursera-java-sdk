@@ -1,1 +1,1 @@
-# java-coursera-sdk
+# coursera-java-sdk
