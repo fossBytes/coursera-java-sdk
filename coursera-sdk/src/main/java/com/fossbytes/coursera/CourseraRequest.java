@@ -37,7 +37,7 @@ public class CourseraRequest {
 	public String createUrl() {
 		String url = "https://api.coursera.org/api/" + operation + "?";
 		for (Map.Entry<String, String> entry : arguments.entrySet()) {
-			url = url.concat(entry.getKey() + "=" + entry.getValue());
+			url = url.concat(entry.getKey() + "=" + entry.getValue() + "&");
 		}
 		return url;
 	}
